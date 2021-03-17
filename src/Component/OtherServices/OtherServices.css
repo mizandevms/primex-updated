@@ -1,0 +1,33 @@
+.otherServicesBody{
+    font-family: var(--font-family);
+    display: grid;
+    justify-content: center;
+    padding: 1%;
+    background-image: url('../Images/Star\ 2.svg');
+    background-size: 77% 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: rotate(180deg); */
+}
+.OtherServicesHeader {
+    height:auto;
+    width: 900px;
+    text-align:  center;  
+    margin: auto;
+}
+.OtherServicesHeader h1{
+    color: var(--background-color);
+}
+.OtherServicesHeader article{
+    font-weight: 500;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.services{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem 1.5rem;
+    margin: 2% 7% 0 7%;
+}
+.serviceDetails h3{
+    color: var(--background-color);
+}

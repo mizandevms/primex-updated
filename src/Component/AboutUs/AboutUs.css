@@ -1,0 +1,24 @@
+.aboutUsBody{
+    font-family: var(--font-family);
+    text-align:  right;  
+    padding: 1%
+}
+.aboutUsContent{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.aboutText{
+    height:auto;
+    width: 300px;
+}
+.aboutText h1{
+    color: var(--background-color)
+}
+article{
+    font-weight: 500;
+}
+.aboutUsContent .aboutAnimation .container{
+    height: auto;
+    width: 750px;
+}

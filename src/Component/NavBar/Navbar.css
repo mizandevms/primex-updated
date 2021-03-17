@@ -1,0 +1,13 @@
+.navbarContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 15% 0 15%;
+    font-family: UniNeueBold;
+    padding: 1rem;
+    
+}
+.buttonContent a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 800;
+}
