@@ -4,3 +4,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.thirdBackground{
+    background-image: url('../Images/Star\ 3.svg');
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}

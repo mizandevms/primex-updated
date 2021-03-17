@@ -1,0 +1,96 @@
+.portfolioBody{
+    font-family: var(--font-family); 
+    padding: 1%;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    background-image: url('../Images/Vector\ 3.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolioContent{
+    height: auto;
+    width: 100vw;
+    padding-top: 4rem;    
+    padding-bottom: 3rem;   
+}
+.portfolioText{
+    text-align: center;
+}
+.portfolioHeader{
+   display: flex;
+   justify-content: space-around;
+}
+.portfolioHeaderText{
+    text-align: left;
+    font-weight: 800;
+}
+.portfolioHeaderText .headerColor{
+    color: var(--background-color);
+}
+.portfolioHeaderLink a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 800;
+}
+.portfolioContent article{
+    font-family: var(--font-family); 
+    height: auto;
+    width: 900px;
+   margin: auto;
+}
+.port-btn{
+    color:#212529;
+    margin-right: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2rem;
+}
+.port-btn span{
+    font-family: UniNeueHeavy;
+    font-size: 150%;
+    margin-right: 5rem;
+}
+.port-btn span:hover{
+   color: #e6b104;
+}
+.all img{
+    height: auto;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 5%;
+    /* display: block; */
+}
+.web img{
+    height: auto;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 5%;
+}
+.graphics img{
+    height: auto;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 5%;
+}
+.templates img{
+    height: auto;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 5%;
+}
+.apps img{
+    height: auto;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 5%;
+}
+.all img:hover{
+    opacity: .8;
+    /* zoom: 1.1; */
+}
+.web, .graphics , .templates , .apps{
+    display: none;
+}

@@ -1,0 +1,134 @@
+.capabilityBody{
+    font-family: var(--font-family);
+    padding: 2%;
+    overflow: hidden;
+    background-image: url('../Images/Vector\ 5.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.capabilityContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.primex_capability{
+    height: auto;
+    width: 40%;
+}
+.primex_capability h4,h5,ul{ 
+    color: var(--background-color)
+}
+.skillsBody{
+    display: grid;
+    justify-content: space-between;
+}
+.skillsBody a{
+    text-decoration: none;
+    color: #042B30;
+    text-align: center;
+    font-weight: 800;
+}
+.skills{
+    height : 85%;
+    width: 90%;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 31px 15px rgba(170, 193, 200, 0.25);
+    border-radius: 25px;
+    padding: 0 3%;
+}
+.skillsContents{
+    height: 450px;
+    margin: auto;
+    padding-right: 1rem;
+}
+.skillsContents h5{
+    text-align: center;
+    color:#042B30;
+    padding-top: 2rem;
+    margin: 0 !important;
+}
+.skillPercentBody{
+    height: auto;
+    width: 280px;
+    transform: rotate(270deg);
+    padding: 0 2rem;
+    overflow: hidden;    
+}
+.skillPercentContent{
+    display: flex;
+    justify-content: flex-start;
+    padding: .5rem;   
+}
+.skillPercent1 span{
+    margin-left: 15px;
+    
+}
+.percent{
+    padding: 0 .5rem ;
+    transform: rotate(90deg);
+}
+.skillPercent1{
+    height: 2.5rem;
+    width: 250px;
+    color: #f0f0f0;
+    background-color:  #F05025;
+    text-align: left;
+    border-radius: 0 6px 6px 0;
+    z-index: 10;
+}
+
+.skillPercent12{
+    height: 2.5rem;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    left: -5px;
+    border-radius: 0 6px 6px 0;
+    z-index: 9;
+}
+.seo1 span{
+    margin-left: 15px;
+    
+}
+.seo1{
+    height: 2.5rem;
+    width: 200px;
+    color: #f0f0f0;
+    background-color:  #F05025;
+    text-align: left;
+    border-radius: 0 6px 6px 0;
+    z-index: 10;
+}
+
+.seo{
+    height: 2.5rem;
+    width: 80px;
+    background-color: black;
+    position: relative;
+    left: -5px;
+    border-radius: 0 6px 6px 0;
+    z-index: 9;
+}
+.Graphics1 span{
+    margin-left: 15px;
+    
+}
+.Graphics1{
+    height: 2.5rem;
+    width: 230px;
+    color: #f0f0f0;
+    background-color:  #F05025;
+    text-align: left;
+    border-radius: 0 6px 6px 0;
+    z-index: 10;
+}
+
+.Graphics{
+    height: 2.5rem;
+    width: 50px;
+    background-color: black;
+    position: relative;
+    left: -5px;
+    border-radius: 0 6px 6px 0;
+    z-index: 9;
+}

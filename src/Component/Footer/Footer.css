@@ -1,0 +1,34 @@
+.footerBody{
+    font-family: var(--font-family);
+    text-align: center;
+    /* display: grid;
+    justify-content: center; */
+    padding: 3%;
+}
+.footerContent span{
+    font-weight: 200;
+    color: #002B30;
+}
+.socialMedia{
+    padding: 2rem;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.footerAddress{
+    display: flex;
+    justify-content: space-around;
+   
+    font-weight: 200;
+}
+.addressName{
+    display: grid;
+    justify-content: center;
+}
+.addressConditions{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}

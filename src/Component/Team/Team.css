@@ -1,0 +1,35 @@
+.teamBody{
+    font-family: var(--font-family);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding: 1%;
+    background-image: url('../Images/Vector\ 4.svg');
+    background-size: 30% auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.teamContent h1{
+    color: var(--background-color);
+}
+.teamContent article{
+   height: auto;
+   width: 900px;
+}
+.team-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;   
+}
+.member{
+    display: grid;
+    justify-content: center;
+}
+.member label{
+    margin-top: 1rem;
+}
+.team-img img{
+    border-radius: 6px;
+    height: 10rem;
+    width: 11rem;
+}

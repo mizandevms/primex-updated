@@ -1,0 +1,61 @@
+.getTogetherBody{
+    font-family: var(--font-family); 
+    display: grid;
+    justify-content: center;
+    padding: 1%;
+     
+}
+.getHeader {
+   font-size: 1.5rem;
+   font-family: UniNeueBold;
+}
+.getForm{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #002B30;  
+}
+.getHeader .lets{
+    color: var(--background-color);
+    margin-bottom: 0;
+}
+.getInputs{    
+    display : block;
+    width: 50%;
+}
+.getInputs input{
+    display : block;
+    height: 30px;
+    width: 100%; 
+    margin-bottom: .5rem;
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+.getInputs textarea{
+    display : block;
+    width: 100%; 
+    background-color: transparent;
+}
+.getSubmits{
+    display : block;
+    width: 30%;
+}
+.getSubmits img{
+    display : block;
+    height: auto;
+    width: 200px;
+}
+.getSubmits button{
+    display : block;
+    height: 60px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
+::placeholder {
+    padding-left: 1.5rem;
+  }

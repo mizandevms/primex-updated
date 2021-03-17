@@ -1,8 +1,13 @@
 import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
+import Capability from '../Capability/Capability';
+import Footer from '../Footer/Footer';
 import ForYou from '../ForYou/ForYou';
+import GetTogether from '../GetTogether/GetTogether';
 import Header from '../Header/Header';
 import OtherServices from '../OtherServices/OtherServices';
+import Portfolio from '../Portfolio/Portfolio';
+import Team from '../Team/Team';
 import './Home.css'
 const Home = () => {
     return (
@@ -14,6 +19,13 @@ const Home = () => {
                 </div>
                 <OtherServices />
                 <AboutUs />
+                <Portfolio />
+                <Team />
+                <Capability />
+                <div className="thirdBackground">
+                    <GetTogether />
+                    <Footer />
+                </div>
             </div>
 
         </div>
