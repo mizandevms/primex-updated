@@ -98,7 +98,7 @@ const Portfolio = () => {
                     <div className="portfolioHeader">
                         <div className="portfolioHeaderText">
                             <h1 >WHAT WE</h1>
-                            <h1  className="headerColor">DONE SO FAR</h1>
+                            <h1 className="headerColor">DONE SO FAR</h1>
                         </div>
                         <div className="portfolioHeaderLink">
                             <Link to="/home">Get PRICEING -></Link>
@@ -119,14 +119,27 @@ const Portfolio = () => {
                     <span data-aos="slide-up" data-aos-duration="4000" id="apps">Apps</span>
                 </div>
                 <div data-aos="slide-up" data-aos-duration="4000" className="all" id="allImg">
-                    <img src={img1} alt="" />
-                    <img src={img2} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img4} alt="" />
-                    <img src={img5} alt="" />
-                    <img src={img6} alt="" />
-                    <img src={img7} alt="" />
-                    <img src={img8} alt="" />
+                    <div className="portfolioFirstRow">
+                        <div className="portfolioFirstColumn">
+                            <img src={img1} alt="" />
+                            <img src={img2} alt="" />
+                        </div>
+                        <div className="portfolioSecondColumn">
+                            <img src={img3} alt="" />
+                        </div>
+                    </div>
+                    <div className="portfolioSecondRow">
+                        <div className="portfolioFirstColumnNew">
+                            <img src={img6} alt="" />
+                        </div>
+                        <div className="portfolioSecondColumnNew">
+                            <img src={img5} alt="" />
+                            <img src={img4} alt="" />
+                        </div>
+                    </div>
+
+                    {/* <img src={img7} alt="" />
+                    <img src={img8} alt="" /> */}
 
                 </div>
                 <div data-aos="slide-up" data-aos-duration="4000" className="web" id="webImg" >

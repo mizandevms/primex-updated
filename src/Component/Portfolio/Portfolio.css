@@ -8,6 +8,8 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
+    height: 1200px;
+    width: auto;
 }
 .portfolioContent{
     height: auto;
@@ -56,13 +58,13 @@
 .port-btn span:hover{
    color: #e6b104;
 }
-.all img{
+/* .all img{
     height: auto;
-    width: 20%;
+    width: 50%;
     padding: 2rem;
     border-radius: 5%;
-    /* display: block; */
-}
+    display: block; 
+} */
 .web img{
     height: auto;
     width: 20%;
@@ -93,4 +95,51 @@
 }
 .web, .graphics , .templates , .apps{
     display: none;
+}
+.portfolioFirstRow{
+    display: flex;
+    justify-content:space-evenly;    
+}
+.portfolioFirstColumn{
+    display: flex;
+    justify-content:space-evenly;
+    height: auto;
+    width: 49%;
+  
+}
+.portfolioFirstColumn img{
+    height: 50%; 
+    width: 50%;
+}
+
+.portfolioSecondColumn{
+    height: auto;
+    width: 49%;
+}
+.portfolioSecondRow{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:space-evenly;  
+}
+.portfolioFirstColumnNew{
+    height: auto;
+    width: 49%;
+    position: relative;
+    top: -240px;
+}
+.portfolioFirstColumnNew img{
+    height: auto; 
+    width: 99%;
+}
+
+.portfolioSecondColumnNew{
+    height: auto;
+    width: 49%;
+    display: flex;
+    justify-content:space-evenly; 
+}
+
+.portfolioSecondColumnNew img{
+    height: 50%; 
+    width: 50%;
 }
