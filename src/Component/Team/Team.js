@@ -1,6 +1,6 @@
 import React from 'react';
 import './Team.css'
-import Asif from '../Images/29432173_1646182772163168_428414277582323712_o.jpg';
+import Asif from '../Images/92874895_2906229149491851_3734807907384950784_o.jpg';
 import Udhvob from '../Images/Udhvob.png';
 import Mizan from '../Images/Mizan.png';
 import Russel from '../Images/138719776_226714722344591_5169889791912608121_o.jpg';

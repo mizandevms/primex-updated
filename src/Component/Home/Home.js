@@ -7,6 +7,7 @@ import GetTogether from '../GetTogether/GetTogether';
 import Header from '../Header/Header';
 import OtherServices from '../OtherServices/OtherServices';
 import Portfolio from '../Portfolio/Portfolio';
+import Slider from '../Slider/Slider';
 import Team from '../Team/Team';
 import './Home.css'
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
                 <div className="firstBackground">
                     <Header />
                     <ForYou />
+                    <Slider />
                 </div>
                 <OtherServices />
                 <AboutUs />

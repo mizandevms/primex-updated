@@ -15,6 +15,9 @@ const AboutUs = () => {
             animationData: require('../../Animation/Charactor ani.json')
         })
     }, [])
+
+
+    
     return (
         <div className="aboutUsBody">
             <div className="aboutUsContent">

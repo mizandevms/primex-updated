@@ -6,6 +6,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .capabilityContent{
     display: flex;
@@ -21,6 +22,8 @@
 .skillsBody{
     display: grid;
     justify-content: space-between;
+    height : auto;
+    width: 40%;
 }
 .skillsBody a{
     text-decoration: none;
@@ -30,7 +33,7 @@
 }
 .skills{
     height : 85%;
-    width: 90%;
+    width: 120%;
     background-color:#FFFFFF;
     box-shadow: 0px 4px 31px 15px rgba(170, 193, 200, 0.25);
     border-radius: 25px;
@@ -38,6 +41,7 @@
 }
 .skillsContents{
     height: 450px;
+    width: 100%;
     margin: auto;
     padding-right: 1rem;
 }
@@ -49,10 +53,12 @@
 }
 .skillPercentBody{
     height: auto;
-    width: 280px;
+    width: 300px;
     transform: rotate(270deg);
     padding: 0 2rem;
-    overflow: hidden;    
+    overflow: hidden; 
+    position: relative;
+    left: 2.5rem;   
 }
 .skillPercentContent{
     display: flex;
