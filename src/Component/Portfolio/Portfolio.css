@@ -22,9 +22,11 @@
 }
 .portfolioHeader{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   width: 900px;
+   margin: auto;
 }
-.portfolioHeaderText{
+.portfolioHeaderText{  
     text-align: left;
     font-weight: 800;
 }
@@ -39,8 +41,8 @@
 .portfolioContent article{
     font-family: var(--font-family); 
     height: auto;
-    width: 100%;
-   margin: auto;
+    width: 900px;
+    margin: auto;
 }
 .port-btn{
     color:#212529;
