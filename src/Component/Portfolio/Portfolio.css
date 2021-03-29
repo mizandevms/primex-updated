@@ -39,7 +39,7 @@
 .portfolioContent article{
     font-family: var(--font-family); 
     height: auto;
-    width: 900px;
+    width: 100%;
    margin: auto;
 }
 .port-btn{
@@ -115,6 +115,10 @@
 .portfolioSecondColumn{
     height: auto;
     width: 49%;
+}
+.portfolioSecondColumn img{
+    height: auto;
+    width: 100%;
 }
 .portfolioSecondRow{
     margin-top: 1rem;

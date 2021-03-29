@@ -23,7 +23,7 @@ const Header = () => {
             const backdropArea = document.getElementById("backdrop");
             backdropArea.style.display = "none";
         }
-        console.log(bool);
+        // console.log(bool);
 
     }
     const handleClickBackdrop = () => {
