@@ -49,17 +49,18 @@
        position: relative;
        z-index: 99;
        display: none;
-       margin: auto;
+       width: 170px;
+       /* margin: auto; */
    }
    .navbarContent{  
        /* background-color: #87cfebbe; */
        display: grid;
        justify-content: center;
        height: auto;
-       width: 170px;
+       width: 160px;
        margin: auto;
-       position: relative;
-       right: -30%;
+       position: absolute;
+       right: -120%;
        top: 0rem;      
    }
    .ButtonContent{
