@@ -2,8 +2,8 @@
     font-family: var(--font-family);
     display: grid;
     justify-content: center;
-    background-image: url('../Images/Star\ 2.svg');
-    background-size: 77% 100vw;
+    background-image: url('../../Animation/animation_640_kmujj2ez.gif'); 
+    background-size: 70% 85vw;
     background-repeat: no-repeat;
     background-position: center;
     /* transform: rotate(180deg); */
