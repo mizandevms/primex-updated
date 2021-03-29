@@ -3,8 +3,9 @@ import { Carousel } from 'react-bootstrap';
 import './Slider.css';
 import landing1 from '../Images/Landing 1.png';
 import landing2 from '../Images/Landing m 1.png';
+import second_slider from '../Images/second_slide_img.png';
 import { Link } from 'react-router-dom';
-
+import { GrLinkNext } from "react-icons/gr";
 
 
 
@@ -26,7 +27,7 @@ const Slider = () => {
                                         <b>Web & APP Development</b><br />
                                         With right strategies and technolo gies, our web & app (iOS & android) design and development team gives yo ur business the required boost through visually appealing and interactive websit es, which ensures greater conversion and genuine business leads.
                                     </article>
-                                    <Link to="/home">Get PRICEING -></Link>
+                                    <Link to="/home">GET PRICING <GrLinkNext /></Link>
                                 </div>
                                 <div className="carouselImg">
                                     <div className="carouselImgContent">
@@ -63,20 +64,20 @@ const Slider = () => {
                                         <b>Web & APP Development</b><br />
                                         With right strategies and technolo gies, our web & app (iOS & android) design and development team gives yo ur business the required boost through visually appealing and interactive websit es, which ensures greater conversion and genuine business leads.
                                     </article>
-                                    <Link to="/home">Get PRICEING -></Link>
+                                    <Link to="/home">GET PRICING <GrLinkNext /></Link>
                                 </div>
                                 <div className="carouselImg">
                                     <div className="carouselImgContent">
                                         <img
                                             className="slide1 d-block w-100"
-                                            src={landing1}
+                                            src={second_slider}
                                             alt="First slide1"
                                         />
-                                        <img
+                                        {/* <img
                                             className="slide2 d-block "
                                             src={landing2}
                                             alt="First slide2"
-                                        />
+                                        /> */}
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +95,7 @@ const Slider = () => {
                                         <b>Web & APP Development</b><br />
                                         With right strategies and technolo gies, our web & app (iOS & android) design and development team gives yo ur business the required boost through visually appealing and interactive websit es, which ensures greater conversion and genuine business leads.
                                     </article>
-                                    <Link to="/home">Get PRICEING -></Link>
+                                    <Link to="/home">GET PRICING <GrLinkNext /></Link>
                                 </div>
                                 <div className="carouselImg">
                                     <div className="carouselImgContent">

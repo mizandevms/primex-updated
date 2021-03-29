@@ -11,6 +11,7 @@ import img8 from '../Images/portfolio/sven.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import { GrLinkNext } from "react-icons/gr";
 
 
 const Portfolio = () => {
@@ -101,7 +102,7 @@ const Portfolio = () => {
                             <h1 className="headerColor">DONE SO FAR</h1>
                         </div>
                         <div className="portfolioHeaderLink">
-                            <Link to="/home">Get PRICEING -></Link>
+                            <Link to="/home">GET PRICING <GrLinkNext/></Link>
                         </div>
                     </div>
                     <article>
@@ -109,7 +110,7 @@ const Portfolio = () => {
                         think is what we can do for you and what we should do that make us more efficient . we are committed
                         to serve the best as your expectation.
                         We have so much more that we want and need to do for you all.
-			    </article>
+			        </article>
                 </div>
                 <div className="port-btn">
                     <span data-aos="zoom-in-up" data-aos-duration="4000" id="all">All</span>

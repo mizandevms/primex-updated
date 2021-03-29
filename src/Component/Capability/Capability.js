@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Capability.css'
+import './Capability.css';
+import { GrLinkNext } from "react-icons/gr";
 
 const Capability = () => {
     return (
@@ -72,7 +73,7 @@ const Capability = () => {
                             </div>
                         </div>
                     </div>
-                    <Link to="/home">Get PRICEING -></Link>
+                    <Link to="/home">GEt PRICING <GrLinkNext/></Link>
                 </div>
             </div>
         </div>

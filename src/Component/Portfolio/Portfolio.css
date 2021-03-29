@@ -1,6 +1,5 @@
 .portfolioBody{
     font-family: var(--font-family); 
-    padding: 1%;
     overflow: hidden;
     display: grid;
     justify-content: center;
@@ -16,6 +15,7 @@
     width: 100vw;
     padding-top: 4rem;    
     padding-bottom: 3rem;   
+    padding: 6% 0;
 }
 .portfolioText{
     text-align: center;
@@ -142,4 +142,118 @@
 .portfolioSecondColumnNew img{
     height: 50%; 
     width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .portfolioBody{
+        height: auto;
+        width: auto;
+        padding: 3%;
+    }
+    .portfolioContent{
+        
+        padding: 4%;
+    }
+    .portfolioHeaderText h1{
+        font-size: 1.5rem;
+    }
+    .portfolioText article {
+        font-family: var(--font-family);
+        height: auto;
+        width: 100%;
+        font-size: .8rem;;
+    }  
+    .port-btn{
+        color:#212529;
+        margin-right: 0rem;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content:center;
+        margin-bottom: 1rem;
+    }
+    .port-btn span{
+        font-family: UniNeueHeavy;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+    }
+    .port-btn span:hover{
+       color: #e6b104;
+    }
+    
+    .portfolioFirstRow{
+        display: flex;
+        justify-content:space-evenly;    
+    }
+    .portfolioFirstColumn{
+        display: flex;
+        justify-content:space-evenly;
+        height: auto;
+        width: 49%;
+    
+    }
+    .portfolioFirstColumn img{
+        height: 50%; 
+        width: 50%;
+    }
+
+    .portfolioSecondColumn{
+        height: auto;
+        width: 49%;
+    }
+    .portfolioSecondColumn img{
+        height: 100%;
+        width: 100%;
+    }
+    .portfolioSecondRow{
+        margin-top: 1rem;
+        display: flex;
+        justify-content:space-evenly;  
+    }
+    .portfolioFirstColumnNew{
+        height: auto;
+        width: 49%;
+        position: relative;
+        top: -60px;
+    }
+    .portfolioFirstColumnNew img{
+        height: auto; 
+        width: 99%;
+    }
+
+    .portfolioSecondColumnNew{
+        height: auto;
+        width: 49%;
+        display: flex;
+        justify-content:space-evenly; 
+    }
+
+    .portfolioSecondColumnNew img{
+        height: 50%; 
+        width: 50%;
+    }
+    .web img {
+        height: auto;
+        width: 40%;
+        padding: .5rem;
+        border-radius: 5%;
+    }
+    .graphics img{
+        height: auto;
+        width: 40%;
+        padding: .5rem;
+        border-radius: 5%;
+    }
+    .templates img{
+        height: auto;
+        width: 40%;
+        padding: .5rem;
+        border-radius: 5%;
+    }
+    .apps img{
+        height: auto;
+        width: 40%;
+        padding: .5rem;
+        border-radius: 5%;
+    }
 }

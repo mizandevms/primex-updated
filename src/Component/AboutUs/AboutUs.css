@@ -1,12 +1,12 @@
 .aboutUsBody{
     font-family: var(--font-family);
     text-align:  right;  
-    padding: 1%
 }
 .aboutUsContent{
     display: flex;
     justify-content: center;
     gap: 4%;
+    padding: 4%;
 }
 .aboutText{
     height:auto;
@@ -21,4 +21,36 @@ article{
 .aboutUsContent .aboutAnimation .container{
     height: auto;
     width: 750px;
+}
+@media only screen and (max-width: 768px) {
+    .aboutUsBody{
+        text-align: left;  
+    }
+    .aboutUsContent{
+        display: grid;
+        justify-content: space-between;
+        gap: 4%;
+        padding: 5%;
+    }
+    .aboutUsContent .aboutAnimation .container{
+        height: auto;
+        width: 50%;
+    }
+    .aboutAnimation .container svg{
+        height: 100% !important;
+        width: 100% !important;
+        margin: auto;
+    }
+    .aboutText{
+        height:auto;
+        width: 100%;
+
+    }
+    .aboutText h1{
+       font-size: 1.5rem;
+    }
+    article{
+        font-size: .8rem;
+       text-align:justify;
+    }
 }

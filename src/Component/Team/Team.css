@@ -2,12 +2,14 @@
     font-family: var(--font-family);
     text-align: center;
     display: grid;
-    justify-content: center;
-    padding: 1%;
+    justify-content: center;    
     background-image: url('../Images/Vector\ 4.svg');
     background-size: 30% auto;
     background-repeat: no-repeat;
     background-position: right;
+}
+.teamContent{
+    padding: 3%;
 }
 .teamContent h1{
     color: var(--background-color);
@@ -23,7 +25,8 @@
 }
 .member{
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
 }
 .member label{
     margin-top: 1rem;
@@ -32,4 +35,34 @@
     border-radius: 6px;
     height: 10rem;
     width: 11rem;
+}
+@media only screen and (max-width: 768px) {
+    .teamContent{
+        padding: 4%;
+    }
+    .teamContent h1{
+        font-size: 1.5rem;
+    }
+    .teamContent article{
+       height: auto;
+       width: 100%;
+       font-size: .8rem;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        justify-content: space-around;
+        padding: 0rem;   
+    }
+    .team-img img{
+        border-radius: 6px;
+        height: 6rem;
+        width: 6rem;
+    }
+    .member label{
+        text-align: left;
+        margin-top: .5rem;
+        font-size: .8rem;
+    }
 }

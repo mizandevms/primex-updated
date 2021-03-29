@@ -1,9 +1,10 @@
 .getTogetherBody{
     font-family: var(--font-family); 
     display: grid;
-    justify-content: center;
-    padding: 1%;
-     
+    justify-content: center;     
+}
+.getTogetherContent{
+    padding: 3%;
 }
 .getHeader {
    font-size: 1.5rem;
@@ -59,3 +60,27 @@
 ::placeholder {
     padding-left: 1.5rem;
   }
+  @media only screen and (max-width: 768px) {
+    .getTogetherBody{
+        padding: 6%;
+      }
+    .getHeader h1{
+        font-size: 1.5rem;
+    }
+    .getForm {
+        display: grid;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid #002B30;
+    }
+    .getInputs {
+        display: block;
+        width: 100%;
+    }
+    .getSubmits button{
+        align-items: center;
+    }
+}

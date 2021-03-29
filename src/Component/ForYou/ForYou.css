@@ -2,13 +2,13 @@
     font-family: var(--font-family);
     text-align:  center;   
     display: grid;
-    justify-content: center;
-    padding: 1%;
+    justify-content: center;    
 }
 .forYouContent{
     height:auto;
     width: 900px;
     align-items: center;
+    padding: 3%;
 }
 .forYoyHeader{
     display: flex;
@@ -30,4 +30,15 @@ article{
     text-decoration: none;
     color: var(--font-color);
     font-weight: 800;
+}
+@media only screen and (max-width: 768px) {
+    .forYoyHeader h1{
+        font-size: 1.5rem;
+    }
+    .forYouContent{
+        font-size: 80%;
+        height:auto;
+        width: 100%;
+        padding: 5%;
+    }
 }
