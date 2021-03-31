@@ -3,15 +3,12 @@
     text-align: center;
     display: grid;
     justify-content: center;    
-    background-image: url('../Images/Vector\ 4.svg');
-    background-size: 30% auto;
-    background-repeat: no-repeat;
-    background-position: right;
 }
 .teamContent{
-    padding: 3%;
+  margin: 300px 0 300px 0;
 }
 .teamContent h1{
+    font-weight: bold;
     color: var(--background-color);
 }
 .teamContent article{
@@ -19,8 +16,9 @@
    width: 900px;
 }
 .team-img{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5rem 0rem;
     padding: 2rem;   
 }
 .member{
@@ -34,7 +32,7 @@
 .team-img img{
     border-radius: 6px;
     height: 10rem;
-    width: 11rem;
+    width: 12rem;
 }
 @media only screen and (max-width: 768px) {
     .teamContent{

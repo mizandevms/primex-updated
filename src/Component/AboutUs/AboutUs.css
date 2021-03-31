@@ -6,14 +6,16 @@
     display: flex;
     justify-content: center;
     gap: 4%;
-    padding: 4%;
+    padding: 10%;
+  
 }
 .aboutText{
     height:auto;
     width: 300px;
 }
 .aboutText h1{
-    color: var(--background-color)
+    color: var(--background-color);
+    font-weight: bold;
 }
 article{
     font-weight: 500;

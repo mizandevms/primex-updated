@@ -1,0 +1,9 @@
+.ourClientsBody{
+    font-family: var(--font-family);
+}
+.clientsHeader h1{
+    font-weight: bold;
+}
+.headerColour{
+    color: var(--background-color)
+}

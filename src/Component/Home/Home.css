@@ -5,6 +5,12 @@
     background-position: center;
    
 }
+.secondBackground{
+    background-image: url('../Images/Group\ 11.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .thirdBackground{
     background-image: url('../../Animation/animation_640_kmujj1ez.gif');
     background-size: 60% auto;

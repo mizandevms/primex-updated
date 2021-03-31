@@ -1,20 +1,21 @@
 .capabilityBody{
     font-family: var(--font-family);
-    overflow: hidden;
-    background-image: url('../Images/Vector\ 5.svg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+    overflow: hidden;    
 }
 .capabilityContent{
     display: flex;
     justify-content: space-evenly;
-    padding: 4%;
+    padding: 10%;
 }
 .primex_capability{
     height: auto;
     width: 40%;
+}
+.primex_capability h4{
+    font-weight: bold;
+}
+.primex_capability h5{
+    font-weight: bold;
 }
 .primex_capability h4,h5,ul{ 
     color: var(--background-color)
@@ -50,6 +51,7 @@
     color:#042B30;
     padding-top: 2rem;
     margin: 0 !important;
+    font-weight: bold;
 }
 .skillPercentBody{
     height: auto;

@@ -3,13 +3,14 @@
     display: grid;
     justify-content: center;
     background-image: url('../../Animation/animation_640_kmujj2ez.gif'); 
-    background-size: 70% 85vw;
+    background-size: 60% auto;
     background-repeat: no-repeat;
     background-position: center;
     /* transform: rotate(180deg); */
 }
 .otherServicesContent{
-    padding: 3%;
+    padding: 10%;
+    
 }
 .OtherServicesHeader {
     height:auto;
@@ -19,6 +20,7 @@
 }
 .OtherServicesHeader h1{
     color: var(--background-color);
+    font-weight: bold;
 }
 .OtherServicesHeader article{
     font-weight: 500;

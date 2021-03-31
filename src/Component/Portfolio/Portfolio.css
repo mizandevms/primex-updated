@@ -3,10 +3,6 @@
     overflow: hidden;
     display: grid;
     justify-content: center;
-    background-image: url('../Images/Vector\ 3.svg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 1200px;
     width: auto;
 }
@@ -25,6 +21,10 @@
    justify-content: space-between;
    width: 900px;
    margin: auto;
+   margin-bottom: 2rem;
+}
+.portfolioHeaderText h1{
+    font-weight: bold;
 }
 .portfolioHeaderText{  
     text-align: left;
@@ -43,6 +43,7 @@
     height: auto;
     width: 900px;
     margin: auto;
+    margin-bottom: 2rem;
 }
 .port-btn{
     color:#212529;
@@ -50,7 +51,7 @@
     cursor: pointer;
     display: flex;
     justify-content:center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 .port-btn span{
     font-family: UniNeueHeavy;
