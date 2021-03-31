@@ -3,7 +3,7 @@
     overflow: hidden;
     display: grid;
     justify-content: center;
-    height: 1200px;
+    height: 1500px;
     width: auto;
 }
 .portfolioContent{
@@ -132,7 +132,7 @@
     height: auto;
     width: 49%;
     position: relative;
-    top: -240px;
+    top: -300px;
 }
 .portfolioFirstColumnNew img{
     height: auto; 
@@ -262,5 +262,13 @@
         width: 40%;
         padding: .5rem;
         border-radius: 5%;
+    }
+}
+@media only screen and (max-width: 1824px) {
+    .portfolioFirstColumnNew{
+        height: auto;
+        width: 49%;
+        position: relative;
+        top: -250px;
     }
 }

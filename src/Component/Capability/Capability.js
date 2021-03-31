@@ -71,9 +71,10 @@ const Capability = () => {
                                     <div className="skillPercent12"></div>
                                 </div>
                             </div>
+                            <Link to="/home">GEt PRICING <GrLinkNext/></Link>
                         </div>
                     </div>
-                    <Link to="/home">GEt PRICING <GrLinkNext/></Link>
+                   
                 </div>
             </div>
         </div>

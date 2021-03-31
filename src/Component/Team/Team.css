@@ -1,11 +1,11 @@
 .teamBody{
     font-family: var(--font-family);
     text-align: center;
-    display: grid;
-    justify-content: center;    
+    /* display: grid;
+    justify-content: center;     */
 }
 .teamContent{
-  margin: 300px 0 300px 0;
+  margin: 300px 0 0 0;
 }
 .teamContent h1{
     font-weight: bold;
@@ -14,10 +14,11 @@
 .teamContent article{
    height: auto;
    width: 900px;
+   margin: auto;
 }
 .team-img{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 1.5rem 0rem;
     padding: 2rem;   
 }

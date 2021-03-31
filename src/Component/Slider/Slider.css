@@ -56,7 +56,7 @@
     background-image: url("../Images/Vector\ 1.png") !important;
 }
 .carousel-control-next {
-    left: 14rem;
+    left: 18rem;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -65,7 +65,7 @@
     padding: 1rem;   
 }
 .carousel-control-prev {
-    left: 10rem!important;
+    left: 14rem!important;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -144,6 +144,42 @@
     .carousel-control-next, .carousel-control-prev {
         position: absolute;
         top: 750px!important;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+}
+@media only screen and (max-width: 1824px) {
+    .carousel-control-next {
+        left: 16rem;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        padding: 1rem;   
+    }
+    .carousel-control-prev {
+        left: 12rem!important;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        padding: 1rem;   
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        transform: rotate(-180deg);
+    }
+   
+    .carousel-control-next, .carousel-control-prev {
+        position: absolute;
+        top: 520px!important;
         bottom: 0;
         z-index: 1;
         display: flex;

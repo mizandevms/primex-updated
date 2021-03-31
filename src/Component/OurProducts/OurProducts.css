@@ -33,7 +33,7 @@
     margin: 6rem 0 0 4rem;
 }
 .ourProductsContent .carousel-control-next {
-    left: 70rem;
+    left: 102rem;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -42,7 +42,7 @@
     padding: 1rem;   
 }
 .ourProductsContent .carousel-control-prev {
-    left: 66rem!important;
+    left: 98rem!important;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -53,7 +53,7 @@
 }
 .ourProductsContent .carousel-control-prev {
     position: absolute;
-    top: 500px!important;
+    top: 550px!important;
     bottom: 0;
     z-index: 1;
     display: flex;
@@ -67,7 +67,7 @@
 }
 .ourProductsContent .carousel-control-next{
     position: absolute;
-    top: 500px!important;
+    top: 550px!important;
     bottom: 0;
     z-index: 1;
     display: flex;
@@ -78,4 +78,53 @@
     text-align: center;
     opacity: .5;
     transition: opacity .15s ease;
+}
+@media only screen and (max-width: 1824px) {
+    .ourProductsContent .carousel-control-next {
+        left: 78rem;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        padding: 1rem;   
+    }
+    .ourProductsContent .carousel-control-prev {
+        left: 74rem!important;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        padding: 1rem;   
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        transform: rotate(-180deg);
+    }
+    .ourProductsContent .carousel-control-prev {
+        position: absolute;
+        top: 550px!important;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    .ourProductsContent .carousel-control-next{
+        position: absolute;
+        top: 550px!important;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
 }
