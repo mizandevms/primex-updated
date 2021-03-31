@@ -1,9 +1,38 @@
 .ourClientsBody{
     font-family: var(--font-family);
+
+}
+.ourClientsContents{
+    display: flex;
+    justify-content: center;
+    gap: 0rem;
+    padding: 2rem;
+    margin: 150px  0 150px 0;
+}
+.clientsHeader{
+    transform: rotate(270deg);
+    width: 30%;
+    text-align: center;
+}
+
+.clientsLogo{
+    /* display: inline-block; */
+        width: 50%;
 }
 .clientsHeader h1{
     font-weight: bold;
 }
 .headerColour{
     color: var(--background-color)
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+    /* gap: .5rem; */
+    padding: 1rem;
+    align-items: center;
+}
+.clients img{
+    height:auto;
+    width: 50%;
 }

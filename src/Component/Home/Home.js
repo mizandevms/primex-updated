@@ -7,6 +7,7 @@ import GetTogether from '../GetTogether/GetTogether';
 import Header from '../Header/Header';
 import OtherServices from '../OtherServices/OtherServices';
 import OurClients from '../OurClients/OurClients';
+import OurProducts from '../OurProducts/OurProducts';
 import Portfolio from '../Portfolio/Portfolio';
 import Slider from '../Slider/Slider';
 import Team from '../Team/Team';
@@ -20,13 +21,14 @@ const Home = () => {
                     <ForYou />
                     <Slider />
                 </div>
+                <AboutUs />
+                <OurProducts />
                 <OtherServices />
-                <div className="secondBackground">
-                    <AboutUs />
+                <div className="secondBackground">                   
                     <Portfolio />
                     <Team />
                     <Capability />
-                    {/* <OurClients /> */}
+                    <OurClients />
                 </div>
                 <div className="thirdBackground">
                     <GetTogether />

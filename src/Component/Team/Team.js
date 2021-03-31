@@ -21,7 +21,7 @@ const Team = () => {
                         <label>Mizanur Rahman Mizan</label>
                         <label>Junior Web Developer</label>
                     </div>
-                    <div className="member">
+                    <div className="member himel">
                         <img src={Himel} alt="" />
                         <label>Fazle Chisty Himel</label>
                         <label>Front End Developer</label>
