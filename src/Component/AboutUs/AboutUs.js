@@ -15,6 +15,16 @@ const AboutUs = () => {
             animationData: require('../../Animation/Charactor ani.json')
         })
     }, [])
+    const container1 = useRef(null);
+    useEffect(() => {
+        lottie.loadAnimation({
+            container: container1.current,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: require('../../Animation/Charactor ani.json')
+        })
+    }, [])
 
 
 
@@ -27,7 +37,7 @@ const AboutUs = () => {
                 <div className="aboutText">
                     <h1>ABOUT US</h1>
                     <div className="aboutAnimationMobile">
-                        <div className="container" ref={container}></div>
+                        <div className="container1" ref={container1}></div>
                     </div>
                     <article>
                         Who Are We? PRIMEX Infos ys is a technology driven and customer focused company that provides UI/UX design, mobile app development, app and responsive website development to global cust omers across all industries. We never stop at improving our services including e ngineering techniques, management practices and developmental methods. Our app d evelopers can offer you customized solutions to suit your needs. They are aware about the latest app versions and can ensure good performance of the apps. Our d esigners, too, are experts in creating themes and icons for smart phones and tou ch screen devices. Websites are designed in user-friendly manner making navigati on simple and faster.

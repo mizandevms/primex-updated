@@ -80,4 +80,7 @@ article{
     .aboutAnimationMobile{
         display: block;
     }
+    .container1{
+        margin-bottom: 2rem;
+    }
 }
