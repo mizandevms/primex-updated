@@ -8,7 +8,7 @@ import ecManager from '../Images/Frame.png'
 
 const OurProducts = () => {
     return (
-        <div className="ourProductsBody">
+        <div id="Products" className="ourProductsBody">
             <div className="ourProductsContent">
                 <Carousel>
                     <Carousel.Item interval={1000}>
@@ -30,8 +30,8 @@ const OurProducts = () => {
                                 </div>
                                 <div className="carouselTextSecond">
                                     <div className="carouselTextHeader">
-                                        <h2>Our Products</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>Our Products</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <img src={ecManager} alt="ecManager" />
                                     <article>
@@ -68,8 +68,8 @@ const OurProducts = () => {
                                 </div>
                                 <div className="carouselTextSecond">
                                     <div className="carouselTextHeader">
-                                        <h2>Our Products</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>Our Products</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <img src={ecManager} alt="ecManager" />
                                     <article>
@@ -100,8 +100,8 @@ const OurProducts = () => {
                                 </div>
                                 <div className="carouselTextSecond">
                                     <div className="carouselTextHeader">
-                                        <h2>Our Products</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>Our Products</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <img src={ecManager} alt="ecManager" />
                                     <article>

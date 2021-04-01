@@ -4,7 +4,7 @@ import primexLogo from '../Images/Group 8.png';
 
 const GetTogether = () => {
     return (
-        <div className="getTogetherBody">
+        <div id="Contact" className="getTogetherBody">
             <div className="getTogetherContent">
                 <div className="getHeader">
                     <h1 className="lets">Let's</h1>

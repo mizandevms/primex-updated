@@ -17,7 +17,7 @@ const OtherServices = () => {
     }, [])
 
     return (
-        <div className="otherServicesBody">
+        <div id="Services" className="otherServicesBody">
             <div className="otherServicesContent">
                 <div className="OtherServicesHeader">
                     <h1>OUR OTHER SERVICES ARE</h1>

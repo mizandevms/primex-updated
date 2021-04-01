@@ -7,12 +7,12 @@
     justify-content: center;
     gap: 0rem;
     padding: 2rem;
-    margin: 150px  0 150px 0;
+    margin: 50px  0 200px 0;
 }
 .clientsHeader{
     transform: rotate(270deg);
     width: 30%;
-    text-align: center;
+    align-items: center;
 }
 
 .clientsLogo{
@@ -21,6 +21,9 @@
 }
 .clientsHeader h1{
     font-weight: bold;
+    font-size: 3.5em;
+    text-align: left;
+    margin-left: 10rem;
 }
 .headerColour{
     color: var(--background-color)
@@ -35,4 +38,18 @@
 .clients img{
     height:auto;
     width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .clientsHeader h1 {
+        font-size: 2em;        
+        margin-left: 0rem;
+    }
+    .clients img{
+        height:auto;
+        width: 100%;
+        padding: 0.3rem;
+    }
+    .ourClientsContents{
+        margin: 50px  0 50px 0;
+    }
 }

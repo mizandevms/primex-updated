@@ -9,6 +9,8 @@
     width: 900px;
     align-items: center;
     padding: 3%;
+    margin: 100px 0 100px 0;
+
 }
 .forYoyHeader{
     display: flex;
@@ -17,6 +19,7 @@
 }
 .forYoyHeader h1{
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 .colorHeader{
@@ -34,6 +37,12 @@ article{
     text-decoration: none;
     color: var(--font-color);
     font-weight: 800;
+}
+
+@media only screen and (max-width: 1380px) {
+    .forYouContent {
+        margin: 0;
+    }
 }
 @media only screen and (max-width: 768px) {
     .forYoyHeader h1{

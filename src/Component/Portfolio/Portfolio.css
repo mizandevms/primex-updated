@@ -150,6 +150,20 @@
     height: 50%; 
     width: 50%;
 }
+
+@media only screen and (max-width: 1824px) {
+    .portfolioFirstColumnNew{
+        height: auto;
+        width: 49%;
+        position: relative;
+        top: -250px;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .portfolioBody {
+        height: 1200px;        
+    }
+}
 @media only screen and (max-width: 768px) {
     .portfolioBody{
         height: auto;
@@ -262,13 +276,5 @@
         width: 40%;
         padding: .5rem;
         border-radius: 5%;
-    }
-}
-@media only screen and (max-width: 1824px) {
-    .portfolioFirstColumnNew{
-        height: auto;
-        width: 49%;
-        position: relative;
-        top: -250px;
     }
 }

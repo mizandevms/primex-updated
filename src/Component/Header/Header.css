@@ -7,19 +7,38 @@
    justify-content: space-evenly;
    margin: 0 15% 0 15%;
    font-family: UniNeueBold;
-   padding: 3% 0;
-   
+   padding: 3% 0;   
 }
 .buttonContent a{
    text-decoration: none;
    color: var(--font-color);
    font-weight: 800;
+   font-weight: bold;
 }
 .navbarContentDesktop{
    display: block;
 }
 #hamburger{
    display: none;
+}
+#upbtn{
+    position: fixed;
+    /* float: right; */
+    bottom: 5rem;
+    right:5rem;
+    z-index: 20;
+}
+#upbtn a{
+    color: #f0512580;
+}
+
+#upbtn a:hover{
+    color: var(--background-color);
+}
+
+#upbtn a svg{
+   height: auto;
+   width: 50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -38,7 +57,7 @@
    #ham{
        display: block;
        height: auto;
-       width: 12%;
+       width: 6%;
        position: relative;
        right: -80%;
        top: -3.5rem;
@@ -87,5 +106,17 @@
        top: 100px;
        /* background-color: #e2ab3644; */
    } 
+   #upbtn{
+    position: fixed;
+    /* float: right; */
+    bottom: 5rem;
+    right:2.5rem;
+    z-index: 20;
+}
+   #upbtn a svg{
+    height: auto;
+    width: 35px;
+ }
+ 
 
  }

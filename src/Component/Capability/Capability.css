@@ -20,7 +20,7 @@
 .primex_capability h4,h5,ul{ 
     color: var(--background-color)
 }
-.skillsBody{
+.skills{
     /* display: grid;
     justify-content: space-between; */
     height : auto;
@@ -31,7 +31,7 @@
     align-items: center;
     text-align: center;
 }
-.skillsBody a{
+.skills a{
     text-decoration: none;
     color: #042B30;
     text-align: center;
@@ -144,22 +144,16 @@
         height: auto;
         width: 100%;
     }
-    .skillsBody {
+    .skills {
         height: auto;
         width: 100%;
-    }
-    .skills {
-        height: 85%;
-        width: 100%;
-        background-color: #FFFFFF;
-        box-shadow: 0px 4px 31px 15px rgb(170 193 200 / 25%);
-        border-radius: 25px;
-        padding: 0 3%;
+        padding: 2%;
     }
     .skillsContents {
         height: 400px;
         width: 100%;
         margin: auto;
+      
         padding-right: 0rem;
     }
     

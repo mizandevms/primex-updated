@@ -4,9 +4,10 @@
 }
 .aboutUsContent{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 4%;
-    padding: 10%;
+    padding: 10% 10% 0 10%;
+    margin: 0 4%
   
 }
 .aboutText{
@@ -16,6 +17,7 @@
 .aboutText h1{
     color: var(--background-color);
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 article{
     font-weight: 500;
@@ -23,6 +25,12 @@ article{
 .aboutUsContent .aboutAnimation .container{
     height: auto;
     width: 750px;
+}
+.aboutAnimation{
+    display: block;
+}
+.aboutAnimationMobile{
+    display: none;
 }
 @media only screen and (max-width: 768px) {
     .aboutUsBody{
@@ -54,5 +62,16 @@ article{
     article{
         font-size: .8rem;
        text-align:justify;
+    }
+    .aboutAnimation{
+        display: none;
+    }
+    .aboutAnimationMobile{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .aboutUsContent {
+        margin: 0;
     }
 }

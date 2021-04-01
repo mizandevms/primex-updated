@@ -10,7 +10,7 @@ import { GrLinkNext } from "react-icons/gr";
 
 const Slider = () => {
     return (
-        <div className="sliderBody">
+        <section id="features" className="sliderBody">
             <div className="sliderContent">
                 <Carousel>
                     <Carousel.Item interval={1000}>
@@ -18,8 +18,8 @@ const Slider = () => {
                             <div className="carouselContent">
                                 <div className="carouselText">
                                     <div className="carouselTextHeader">
-                                        <h2>What Can We Do</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>What Can We Do</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <article>
                                         <b>Web & APP Development</b><br />
@@ -55,8 +55,8 @@ const Slider = () => {
                             <div className="carouselContent">
                                 <div className="carouselText">
                                     <div className="carouselTextHeader">
-                                        <h2>What Can We Do</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>What Can We Do</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <article>
                                         <b>Web & APP Development</b><br />
@@ -86,8 +86,8 @@ const Slider = () => {
                             <div className="carouselContent">
                                 <div className="carouselText">
                                     <div className="carouselTextHeader">
-                                        <h2>What Can We Do</h2>
-                                        <h2 className="colorText">For You</h2>
+                                        <h1>What Can We Do</h1>
+                                        <h1 className="colorText">For You</h1>
                                     </div>
                                     <article>
                                         <b>Web & APP Development</b><br />
@@ -114,7 +114,7 @@ const Slider = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
-        </div>
+        </section>
     );
 };
 

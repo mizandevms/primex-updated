@@ -1,5 +1,9 @@
+.ourProductsBody{
+    font-family: var(--font-family);
+}
 .ourProductsContent{
-    margin: 150px 0 0 0;
+    /* padding: 2%; */
+    margin: 0 3rem; 
 }
 .carouselTextSecond{
     height: 600px;
@@ -17,9 +21,9 @@
     height: auto;
     width: 40%;    
 }
-.carouselTextSecond .carouselTextHeader h2{
+.carouselTextSecond .carouselTextHeader h1{
     font-weight: bold;
-    /* text-align: right; */
+    text-align: right;
 }
 .carouselTextSecond article{
     /* text-align: right; */
@@ -33,7 +37,7 @@
     margin: 6rem 0 0 4rem;
 }
 .ourProductsContent .carousel-control-next {
-    left: 102rem;
+    left: 96rem;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -42,7 +46,7 @@
     padding: 1rem;   
 }
 .ourProductsContent .carousel-control-prev {
-    left: 98rem!important;
+    left: 92rem!important;
     height: 40px !important;
     width: 40px !important;
     border-radius: 50% 50%;
@@ -126,5 +130,91 @@
         text-align: center;
         opacity: .5;
         transition: opacity .15s ease;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .ourProductsContent .carousel-control-next {
+        left: 66rem;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        padding: 1rem;   
+    }
+    .ourProductsContent .carousel-control-prev {
+        left: 62rem!important;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% 50%;
+        padding: 1rem;   
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 22px #C1C1FF;
+        transform: rotate(-180deg);
+    }
+    .ourProductsContent .carousel-control-prev {
+        position: absolute;
+        top: 550px!important;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    .ourProductsContent .carousel-control-next{
+        position: absolute;
+        top: 550px!important;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+
+}
+@media only screen and (max-width: 786px) {
+
+    .ourProductsContent{
+        align-items: center;
+        margin: 3rem 0 0 0;
+    }
+    .carouselImgSecond {
+        width: 100%;
+    }
+    .carouselTextSecond {
+        width: 100%;
+        text-align: left;
+    }
+    .ourProductsContent .carouselImgContent img{
+        margin: 0;
+    }
+    .carouselTextSecond .carouselTextHeader h1 {
+        text-align: left;
+    }
+    .ourProductsContent .carousel-control-next {
+        left: 6rem;
+    }
+    .ourProductsContent .carousel-control-prev {
+        left: 2rem!important;
+    }
+    .ourProductsContent .carousel-control-prev {
+        position: absolute;
+        top: 650px!important;
+        
+    }
+    .ourProductsContent .carousel-control-next{
+        position: absolute;
+        top: 650px!important;
+       
     }
 }

@@ -9,7 +9,7 @@ import Himel from '../Images/0560d236-ea81-4b44-967a-307c24f3b70a.jpg';
 const Team = () => {
 
     return (
-        <div className="teamBody">
+        <div id="Team" className="teamBody">
             <div className="teamContent">
                 <h1>Meet The Team</h1>
                 <article>

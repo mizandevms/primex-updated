@@ -9,7 +9,8 @@
     /* transform: rotate(180deg); */
 }
 .otherServicesContent{
-    padding: 10%;
+    padding: 4%;
+    margin: 120px 0 120px 0;
     
 }
 .OtherServicesHeader {
@@ -21,6 +22,7 @@
 .OtherServicesHeader h1{
     color: var(--background-color);
     font-weight: bold;
+    margin-bottom: 2.5rem;
 }
 .OtherServicesHeader article{
     font-weight: 500;
@@ -29,17 +31,33 @@
 .services{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 1.5rem 2rem;
+    grid-gap: 2.5rem 4rem;
     margin: 2% 12% 0 12%;
 }
 .serviceDetails h3{
     color: var(--background-color);
 }
+.serviceDetails article{
+    margin-bottom: 2.5rem;
+    text-align:  justify;
+}
+.container{
+    margin-bottom: 6.5rem;
+}
+@media only screen and (max-width: 1380px) {
+    .otherServicesContent {
+        margin: 120px 0 0 0;
+    }
+}
 @media only screen and (max-width: 768px) {
+    .otherServicesBody{
+        background-size: 100% auto;       
+    }
     .otherServicesContent{
         height: auto;
         width: 100%;
         font-size: 90%;
+        margin: 0;
     }
     .OtherServicesHeader {
         height:auto;
@@ -71,3 +89,4 @@
         width: 60px !important;
     }
 }
+

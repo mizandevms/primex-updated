@@ -93,7 +93,7 @@ const Portfolio = () => {
     }
 
     return (
-        < div className="portfolioBody" >
+        < div id="Portfolio" className="portfolioBody" >
             <div className="portfolioContent">
                 <div className="portfolioText">
                     <div className="portfolioHeader">

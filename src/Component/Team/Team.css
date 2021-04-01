@@ -10,6 +10,7 @@
 .teamContent h1{
     font-weight: bold;
     color: var(--background-color);
+    margin-bottom: 3rem;
 }
 .teamContent article{
    height: auto;
@@ -40,9 +41,19 @@
     height: 12rem;
     width: 12rem;
 }
+
+@media only screen and (max-width: 1380px) {
+    .team-img {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 1.5rem 0rem;
+        padding: 2rem;
+    }
+}
 @media only screen and (max-width: 768px) {
     .teamContent{
         padding: 4%;
+        margin: 0;
     }
     .teamContent h1{
         font-size: 1.5rem;
