@@ -32,6 +32,17 @@ article{
 .aboutAnimationMobile{
     display: none;
 }
+@media only screen and (max-width: 1380px) {
+    .aboutUsContent {
+        margin: 0;
+    }
+    .aboutAnimation{
+        display: block;
+    }
+    .aboutAnimationMobile{
+        display: none;
+    }
+}
 @media only screen and (max-width: 768px) {
     .aboutUsBody{
         text-align: left;  
@@ -68,10 +79,5 @@ article{
     }
     .aboutAnimationMobile{
         display: block;
-    }
-}
-@media only screen and (max-width: 1380px) {
-    .aboutUsContent {
-        margin: 0;
     }
 }
