@@ -46,7 +46,7 @@
     .team-img {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 1.5rem 0rem;
+        grid-gap: 1.5rem 1rem;
         padding: 2rem;
     }
 }
@@ -63,13 +63,13 @@
        width: 100%;
        font-size: .8rem;
     }
-    .team-img{
+    /* .team-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap: 1rem;
         justify-content: space-around;
         padding: 0rem;   
-    }
+    } */
     .team-img img{
         border-radius: 6px;
         height: 6rem;

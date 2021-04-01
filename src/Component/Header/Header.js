@@ -51,7 +51,7 @@ const Header = () => {
                 </div>
                 <div className="navbarContentDesktop">
                     <div className="navbarContent">
-                        
+
                         <div className="buttonBody">
                             <div className="buttonContent">
                                 <a href=""><Link activeClass="active"
@@ -174,37 +174,114 @@ const Header = () => {
                         <div className="navbarContent">
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Home</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="features"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={-100}
+                                        duration={500}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Features</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Features</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="Services"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={100}
+                                        duration={2000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Services</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Services</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="Products"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={0}
+                                        duration={2000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Our Products</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Portfolio</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="Portfolio"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={50}
+                                        duration={2000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Portfolio</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">About</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="About"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={50}
+                                        duration={2000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >About</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Team</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="Team"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={-50}
+                                        duration={3000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Team</Link>
+                                    </a>
                                 </div>
                             </div>
                             <div className="buttonBody">
                                 <div className="buttonContent">
-                                    <Link to="/home">Contact</Link>
+                                    <a href=""><Link activeClass="active"
+                                        to="Contact"
+                                        spy={true}
+                                        smooth={true}
+                                        hashSpy={true}
+                                        offset={50}
+                                        duration={3000}
+                                        delay={500}
+                                        isDynamic={true}
+                                        ignoreCancelEvents={false}
+                                    >Contact</Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
