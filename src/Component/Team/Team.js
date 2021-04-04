@@ -36,7 +36,7 @@ const Team = () => {
                         <label>Asif Anam Khan</label>
                         <label>Senior Software Engineer</label>
                     </div>
-                    <div className="member">
+                    <div className="member russel_bro">
                         <img src={Russel} alt="" />
                         <label>Russell Abdullah Al Mamun</label>
                         <label>CEO</label>

@@ -21,7 +21,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1.5rem 0rem;
-    padding: 2rem;   
+    padding: 5rem;   
+    margin: 0 12%;
 }
 .member{
     display: grid;
@@ -63,17 +64,21 @@
        width: 100%;
        font-size: .8rem;
     }
-    /* .team-img{
+    .team-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-gap: 1rem;
-        justify-content: space-around;
-        padding: 0rem;   
-    } */
+        grid-gap: 1.5rem 0rem;
+        padding: 2rem;   
+        margin: 0;
+        align-items: center;
+    }
     .team-img img{
         border-radius: 6px;
         height: 6rem;
         width: 6rem;
+    }
+    .russel_bro{
+        margin-left: 2rem;
     }
     .member label{
         text-align: left;
